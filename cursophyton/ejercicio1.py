@@ -1,0 +1,12 @@
+input_cadena= input("ingresa una frase")
+input_numero= input("ingresa un numero")
+input_numero_int= int(input_numero)
+input_flotante= input("ingresa un decinal")
+input_flotante_float=float(input_flotante)
+tipo_cadena= type(input_cadena)
+print("el tipo de cadena es", tipo_cadena)
+tipo_numero= type(input_numero_int)
+print("el  tipo de numer es:" , tipo_numero)
+tipo_flotante= type(input_flotante_float)
+print("el tipo de flotante es-,", tipo_flotante)
+### para cambiar el tipo de dato debemos poner float o int a cambia, ya que no saldra como tipo string ###

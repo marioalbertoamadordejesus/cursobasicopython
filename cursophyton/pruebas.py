@@ -1,0 +1,8 @@
+your_name= input("¿cuales tu nombre")
+print("tu nombre es" , your_name)
+your_age= input("¿cuales es tu edad?")
+your_age_int = int(your_age)
+print("tu edad es" , your_age_int)
+your_nation= input("¿cual es tu nacionalidad")
+print("tu eres de ", your_nation)
+print(type(your_age_int))
